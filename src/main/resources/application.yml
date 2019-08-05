@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postconf
+    username: admin
+    password: 123456
+    hikari:
+      poolName: Hikari
+      auto-commit: false
+
+server:
+  port: 8080
+
+resteasy:
+  deployment:
+    async_job_service_enabled: true
+
+keycloak:
+  server:
+    contextPath: /auth
