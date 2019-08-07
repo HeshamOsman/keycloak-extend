@@ -85,7 +85,7 @@
             "password": "123456",
             "initializeEmpty": true,
             "migrationStrategy": "update",
-            "showSql": "${keycloak.connectionsJpa.showSql:true}",
+            "showSql": "${keycloak.connectionsJpa.showSql:false}",
             "formatSql": "${keycloak.connectionsJpa.formatSql:true}",
             "globalStatsInterval": "${keycloak.connectionsJpa.globalStatsInterval:-1}"
         }

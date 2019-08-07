@@ -17,3 +17,7 @@ resteasy:
 keycloak:
   server:
     contextPath: /auth
+    
+logging:
+  level:
+    org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl: ERROR    
